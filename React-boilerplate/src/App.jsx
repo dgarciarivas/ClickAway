@@ -84,7 +84,7 @@ const rootEl = document.getElementById('root');
                                   <div id = 'time' 
                                     onClick = {
                                       ()=>{
-                                        let newLim = Number(prompt('How many seconds do you want to play?'));
+                                        let newLim = Number(prompt('How many seconds do you want to play? 1-10'));
                                         if(typeof newLim === "number"){
                                           this.setState({
                                             limit: newLim
