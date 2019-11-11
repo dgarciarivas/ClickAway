@@ -1,0 +1,28 @@
+This link helped me set up dev enviromnet, needed link below to set up express server, then addtional
+fiddling with the package.json to get webpack devserver set up
+https://www.codementor.io/seyiadeleke42/setting-up-a-react-development-environment-from-scratch-hbodiez1c
+
+
+This link helped me run the express server
+https://timonweb.com/tutorials/how-to-enable-ecmascript-6-imports-in-nodejs/
+
+
+This link helped me start a git repo with existing code
+https://git-scm.com/docs/git-init
+
+<<<<<<< HEAD
+This link helped me start a git repo on github with exisitng code base
+https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line
+
+=======
+This link helped me learn how to remove items from git and untrack them with .gitignore
+https://stackoverflow.com/questions/24290358/remove-a-folder-from-git-tracking
+
+
+This link helped me learn export and import with react
+https://www.geeksforgeeks.org/reactjs-importing-exporting/
+
+
+This link helped me undertand the diff between var and let
+https://www.geeksforgeeks.org/difference-between-var-and-let-in-javascript/
+>>>>>>> f522b26cd53278cf9cd5ba0715b6e31f69fec5e6

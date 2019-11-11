@@ -1,0 +1,42 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic react boilerplate for development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " webpack-dev-server --loglevel=silent --config webpack.config.js",
+    "build": " webpack --loglevel=silent --config webpack.production.config.js"
+  },
+  "author": "Diego Garciarivas",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.7.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^3.2.0",
+    "loglevel": "^1.6.6",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.13.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}
